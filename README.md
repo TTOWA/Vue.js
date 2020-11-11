@@ -20,3 +20,5 @@ $ npm i -g @vue/cli-init (vue/@vue 차이 작성하기)
 https://nangko.tistory.com/13
 https://atez.kagamine.me/37
 http://labs.brandi.co.kr/2018/05/03/kwakjs.html
+
+https://simplevue.gitbook.io/intro/vue.js#spa-single-page-application
