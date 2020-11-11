@@ -14,3 +14,9 @@ SPA 로 페이지를 구성하게 되면 **빠른 페이지변환**과 **반응�
 
 ## 설치방법
 $ npm install
+$ npm i -g @vue/cli-init (vue/@vue 차이 작성하기)
+
+참고 URL 
+https://nangko.tistory.com/13
+https://atez.kagamine.me/37
+http://labs.brandi.co.kr/2018/05/03/kwakjs.html
