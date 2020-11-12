@@ -5,7 +5,8 @@ Vue.js는 **Component** 기반의 **SPA (Single Page Application)** 사이트를
 말 그대로 단일 페이지 어플리케이션 입니다. 하나의 html 파일과 단일 JS 파일로 이루어져 있습니다.   
 최초 로딩 시에 html 파일과 JS 을 미리 로딩하여 페이지 전환이 될 경우 페이지를 이동하는 것이 아닌 전환될 부분만 그려줍니다.     
 아래의 이미지를 보면 페이지를 이동하였으나 페이지 전체가 새로 로딩되는 것이 아니라 보여줘야 할 페이지의 부분을 새로 그려주면 페이지를 전환 같은 효과를 보여줍니다.          
-<img src="./webtoon.gif" width="500px" height="300px"></img>          
+<img src="./webtoon.gif" width="500px" height="300px"></img> 
+* * *
 #### 장점
 <pre>
 1. 빠른 페이지변환
@@ -26,13 +27,12 @@ Vue.js는 **Component** 기반의 **SPA (Single Page Application)** 사이트를
 * 메타 테그(meta tag)?    
 앱의 메타 데이터를 관리 할 수 있는 Vue.js 플러그인입니다. react-helmet 반응에서 영감을 얻고 유사하게 작동합니다.     
 그러나 데이터를 독점 구성 요소에 전달 된 소품으로 설정하는 대신 metaInfo 속성을 사용하여 구성 요소 데이터의 일부로 내보내기 만하면 됩니다.          
-> >참고 : <https://yamoo9.gitbook.io/vue-a11y-seo/seo#vue-meta>     
-> ><https://github.com/nuxt/vue-meta>
+참고 : <https://yamoo9.gitbook.io/vue-a11y-seo/seo#vue-meta>, <https://github.com/nuxt/vue-meta>
 
 * 넉스트(Nuxt)?     
 Nuxt.js는 Vue.js 프레임워크를 기반으로 SSR(Server Side Rendering) 웹 페이지를 만들 수 있도록 해 주는 라이브러리입니다.     
 검색엔진 최적화(SEO) 등의 문제로 CSR이 아닌 SSR 웹을 구축해야 하는 경우에 유용하게 사용할 수 있습니다.     
-> >참고 : <https://velog.io/@bluestragglr/Nuxt.js-vs-Vue.js-SSR-시작하기>
+참고 : <https://velog.io/@bluestragglr/Nuxt.js-vs-Vue.js-SSR-시작하기>
 
 ## 설치방법
 $ npm install
