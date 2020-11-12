@@ -33,7 +33,7 @@ Vue 컴포넌트 코드 내부에 metaInfo 속성을 사용해 SEO 정보를 설
 참고 : [Github(vue-meta)](https://github.com/nuxt/vue-meta), [설치 및 사용 방법](https://yamoo9.gitbook.io/vue-a11y-seo/seo#vue-meta)    
 
 * 넉스트(Nuxt)?     
-Nuxt.js는 Vue.js 프레임워크를 기반으로 SSR(Server Side Rendering) 웹 페이지를 만들 수 있도록 해 주는 라이브러리입니다.     
+Nuxt.js는 Vue.js 프레임워크를 기반으로 [SSR(Server Side Rendering)](https://yamoo9.gitbook.io/vue-a11y-seo/seo#ssr) 웹 페이지를 만들 수 있도록 해 주는 라이브러리입니다.     
 검색엔진 최적화(SEO)등의 문제로 CSR(Client Side Rendering)이 아닌 SSR(Server Side Rendering) 웹을 구축해야 하는 경우에 사용할 수 있습니다.        
 
 
