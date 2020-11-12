@@ -56,39 +56,45 @@ Vue CLI로 명령을 실행 시키면 CLI가 자동으로 최적화된 Webpack �
 
 ### Vue-Cli 설치
 ```
-# 전역 -global 설치 -install 
+// 설치 -install, 전역 -global
 $ npm i -g @vue/cli // vue-cli 4.x 이상   
 $ npm i -g vue-cli // vue-cli 2.x
 
 ```
-
-### 프로젝트 생성
-```
-$ vue create 'ProjectName' // vue-cli 4.X
-$ vue init webpack 'ProjectName' // vue-cli 2.X
-```
-
-### 로컬 서버 실행
-```
-$ npm run serve // vue-cli 4.x
-$ npm run dev // vue-cli 2.x
-```
-http://localhost:8080/ 로 들어가면 뷰 로고가 있는 로컬 페이지를 볼 수 있습니다.   
-$ npm install 명령어를 통해 NPM패키지를 설치하지 않아도 서버가 작동되는 것을 확인할 수 있는데 vue cli가 이미 node_modules디렉터리 안에 라이브러리들을 다운받았기 때문입니다.   
 vue cli의 기본 템플릿은 babel, eslint, unit-mocha 를 포함 합니다.
 
 * **Babel**: 자바스크립트 컴파일러입니다. 최신버전의 자바스크립트 문법은 브라우저가 이해하지 못하기 때문에 Babel은이 브라우저가 이해할 수 있는 문법으로 변환시켜줍니다.   
          ES6, ES7 등의 최신 문법을 사용해서 코딩을 할 수 있기 때문에 생산성이 향상됩니다.
 * **ESLint**: 코딩 스타일 가이드를 따르지 않거나 문제가 있는 코드나 안티 패턴을 찾아 표시를 달아 놓는 도구.    
-* **unit-mocha**: javascript 진영에서 테스트 러너를 지원하는 테스트 프레임워크.   
+* **unit-mocha**: javascript 진영에서 테스트 러너를 지원하는 테스트 프레임워크.
 
+### 프로젝트 생성
+```
+// vue init <template-name> <project-name>   
+$ vue create 'ProjectName' // vue-cli 4.X   
+$ vue init webpack 'ProjectName' // vue-cli 2.X   
+```
+
+### 로컬 서버 실행
+```
+$ npm run dev
+```
+* 컴파일, ESLint 과정을 거치고 로컬서버로 페이지를 실행시켜준다(http://localhost:8080/)
+* 코드 수정후 저장하면 ESLint, hot-reload 동작(변경된 상태만 변경)
+* Source maps 설정  
+$ npm install 명령어를 통해 NPM패키지를 설치하지 않아도 서버가 작동되는 것을 확인할 수 있는데 vue cli가 이미 node_modules디렉터리 안에 라이브러리들을 다운받았기 때문입니다.   
+   
 ### 배포하기
 ```
 $ npm run build
 ```
-호스팅 할 수 있는 형태의 HTML, CSS, Javascript, 이미지 등의 파일이 생성됩니다.      
-이렇게 생성된 자원을 빌드된 자원이라고 부릅니다.   
+* dist 폴더에 Production 파일 생성
+* JavaScript(UglifyJS), HTML(html-minifier) 최소화
+* 하나의 CSS 파일로 최소화(cssnano)
+* 모든 정적 파일은 파일명에 hash값이 추가되고 index.html에 자동으로 hash가 포함된 URL이 추가   
 <img src="./vue_build.jpg" width="265px" height="249px"></img>
+
+
 
 ### 웹 서버에 빌드된 자원 배포하기   
 앞에서 생성한 빌드 자원을 각각의 서버에 배포하기 위해서는 각 서버에 추가적인 세팅이 필요합니다.   
