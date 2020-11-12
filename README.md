@@ -40,10 +40,10 @@ Nuxt.js는 Vue.js 프레임워크를 기반으로 SSR(Server Side Rendering) 웹
 1. Vue.js 파일다운 
    * 개발용, 배포용 버전을 다운 받아 script 태그에 추가
    개발용 버전은 개발에 도움이 되는 모든 경고를 출력하기 때문에 개발 중에만 사용하고, 실제 서비스에서는 배포용 버전으로 사용해야 한다.   
-   <pre>
-   <code>개발용 : <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script></code>
-   <code>배포용 : <script src="https://cdn.jsdelivr.net/npm/vue"></script></code>
-   </pre>   
+   ```
+   개발용 : <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+   배포용 : <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+   ```  
 3. NPM 설치   
 규모가 큰 프로젝트 경우 컴포넌트별 독립적으로 관리할 수 있는 싱글 파일 컴포넌트 방식 추천
 
@@ -55,13 +55,11 @@ Vue CLI로 명령을 실행 시키면 CLI가 자동으로 최적화된 Webpack �
 참고 : <https://velog.io/@recordboy/Vue-Cli-Vue-Cli-초기-세팅>   
 
 ### Vue-Cli 설치
-<pre>
-<code>
+```
 # 전역 -global 설치 -install 
 $ npm i -g vue-cli // vue-cli 2.x
 $ npm i -g @vue/cli // vue-cli 3.x 이상
-</code>
-</pre>
+```
 $ npm install
 $ npm i -g @vue/cli-init (vue/@vue 차이 작성하기)
 
