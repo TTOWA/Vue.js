@@ -18,8 +18,8 @@ Vue.js는 **Component** 기반의 **SPA (Single Page Application)** 사이트를
 #### 단점
 <pre>
 1. 최초 로딩 시 JS 파일을 가져와야 함으로 JS의 사이즈가 크면 초기 로딩속도 느려짐 이를 해결하기 위해 *코드스클리팅(code-splitting) 사용
-2. 검색엔진이 해당 페이지를 크롤 했을 때는 페이지가 그려지기 전이기 때문에 텅 빈 div 태그만 노출됨.    
-   이를 해결하기 위해서는 *meta tag 를 이용하거나 *Nuxt 같은 서버사이드 렌더링 프레임워크를 이용해야 함.
+2. 검색엔진이 해당 페이지를 크롤 했을 때는 페이지가 그려지기 전이기 때문에 텅 빈 div 태그만 노출됩니다.    
+   이를 해결하기 위해서는 *meta tag 를 이용하거나 *Nuxt 같은 서버사이드 렌더링 프레임워크를 이용해야 합니다.   
 </pre>
 
 * 코드 스플리팅(Code splitting)?     
@@ -39,7 +39,7 @@ Nuxt.js는 Vue.js 프레임워크를 기반으로 SSR(Server Side Rendering) 웹
 ### Vue 설치
 1. Vue.js 파일다운 
    * 개발용, 배포용 버전을 다운 받아 script 태그에 추가
-   개발용 버전은 개발에 도움이 되는 모든 경고를 출력하기 때문에 개발 중에만 사용하고, 실제 서비스에서는 배포용 버전으로 사용해야 한다.   
+   개발용 버전은 개발에 도움이 되는 모든 경고를 출력하기 때문에 개발 중에만 사용하고, 실제 서비스에서는 배포용 버전으로 사용해야 합니다.      
    ```
    개발용 : <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
    배포용 : <script src="https://cdn.jsdelivr.net/npm/vue"></script>
@@ -49,9 +49,9 @@ Nuxt.js는 Vue.js 프레임워크를 기반으로 SSR(Server Side Rendering) 웹
 
 ### Vue-Cli?   
 Vue 프로젝트를 개발할 수 있게 해주는 아주 유용한 도구이며,   
-여기서 CLI란 Command Line Interface의 약자로서 타이핑으로 명령어를 입력하여 원하는 바를 실행시키는 도구를 말한다.   
-Vue CLI은 내부적으로 Webpack을 활용한다.   
-Vue CLI로 명령을 실행 시키면 CLI가 자동으로 최적화된 Webpack 형태의 결과물을 생성 시켜 준다.  
+여기서 CLI란 Command Line Interface의 약자로서 타이핑으로 명령어를 입력하여 원하는 바를 실행시키는 도구를 말합니다.      
+Vue CLI은 내부적으로 Webpack을 활용합니다.   
+Vue CLI로 명령을 실행 시키면 CLI가 자동으로 최적화된 Webpack 형태의 결과물을 생성 시켜 줍니다.  
 참고 : [Vue Cli 초기 세팅](https://velog.io/@recordboy/Vue-Cli-%EC%B4%88%EA%B8%B0-%EC%84%B8%ED%8C%85)   
 
 ### Vue-Cli 설치
@@ -73,14 +73,23 @@ $ vue init webpack 'ProjectName' // vue-cli 2.X
 $ npm run serve // vue-cli 4.x
 $ npm run dev // vue-cli 2.x
 ```
-http://localhost:8080/ 로 들어가면 뷰 로고가 있는 로컬 페이지를 볼 수 있다.   
-$ npm install 명령어를 통해 NPM패키지를 설치하지 않아도 서버가 작동되는 것을 확인할 수 있는데 vue cli가 이미 node_modules디렉터리 안에 라이브러리들을 다운받았기 때문이다.   
-vue cli의 기본 템플릿은 babel, eslint, unit-mocha 를 포함한다.
+http://localhost:8080/ 로 들어가면 뷰 로고가 있는 로컬 페이지를 볼 수 있습니다.   
+$ npm install 명령어를 통해 NPM패키지를 설치하지 않아도 서버가 작동되는 것을 확인할 수 있는데 vue cli가 이미 node_modules디렉터리 안에 라이브러리들을 다운받았기 때문입니다.   
+vue cli의 기본 템플릿은 babel, eslint, unit-mocha 를 포함 합니다.
 
-* **Babel**: 자바스크립트 컴파일러다. 최신버전의 자바스크립트 문법은 브라우저가 이해하지 못하기 때문에 Babel은이 브라우저가 이해할 수 있는 문법으로 변환시켜준다.   
-         ES6, ES7 등의 최신 문법을 사용해서 코딩을 할 수 있기 때문에 생산성이 향상된다.
-* **ESLint**: 코딩 스타일 가이드를 따르지 않거나 문제가 있는 코드나 안티 패턴을 찾아 표시를 달아 놓는 도구이다.    
-* **unit-mocha**: javascript 진영에서 테스트 러너를 지원하는 테스트 프레임워크이다.   
+* **Babel**: 자바스크립트 컴파일러입니다. 최신버전의 자바스크립트 문법은 브라우저가 이해하지 못하기 때문에 Babel은이 브라우저가 이해할 수 있는 문법으로 변환시켜줍니다.   
+         ES6, ES7 등의 최신 문법을 사용해서 코딩을 할 수 있기 때문에 생산성이 향상됩니다.
+* **ESLint**: 코딩 스타일 가이드를 따르지 않거나 문제가 있는 코드나 안티 패턴을 찾아 표시를 달아 놓는 도구.    
+* **unit-mocha**: javascript 진영에서 테스트 러너를 지원하는 테스트 프레임워크.   
+
+### 배포하기
+```
+$ npm run build
+```
+호스팅 할 수 있는 형태의 HTML, CSS, Javascript, 이미지 등의 파일이 생성됩니다.   
+이렇게 생성된 자원을 빌드된 자원이라고 부릅니다.
+<img src="./vue_build.jpg" width="265px" height="249px"></img>
+
 
 ### 참고 문서 
 - <https://nangko.tistory.com/13>    
