@@ -66,7 +66,7 @@ vue cli의 기본 템플릿은 babel, eslint, unit-mocha 를 포함 합니다.
          ES6, ES7 등의 최신 문법을 사용해서 코딩을 할 수 있기 때문에 생산성이 향상됩니다.
 * **ESLint**: 코딩 스타일 가이드를 따르지 않거나 문제가 있는 코드나 안티 패턴을 찾아 표시를 달아 놓는 도구.    
 * **unit-mocha**: javascript 진영에서 테스트 러너를 지원하는 테스트 프레임워크.   
-문서 : [설치 및 사용 방법](https://nangko.tistory.com/13)
+참고 : [설치 및 사용 방법](https://nangko.tistory.com/13)
 
 ### 프로젝트 생성
 ```
