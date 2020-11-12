@@ -1,5 +1,6 @@
 # Vue.js?
 Vue.js는 **Component** 기반의 **SPA (Single Page Application)** 사이트를 구축 할 수 있는 프레임워크 이다.
+참고 : <https://kr.vuejs.org/v2/guide/>
 
 ### SPA (Single Page Application)
 말 그대로 단일 페이지 어플리케이션 입니다. 하나의 html 파일과 단일 JS 파일로 이루어져 있습니다.   
