@@ -5,7 +5,7 @@ Vue.js는 **Component** 기반의 **SPA (Single Page Application)** 사이트를
 말 그대로 단일 페이지 어플리케이션 입니다. 하나의 html 파일과 단일 JS 파일로 이루어져 있습니다.   
 최초 로딩 시에 html 파일과 JS 을 미리 로딩하여 페이지 전환이 될 경우 페이지를 이동하는 것이 아닌 전환될 부분만 그려줍니다.     
 아래의 이미지를 보면 페이지를 이동하였으나 페이지 전체가 새로 로딩되는 것이 아니라 보여줘야 할 페이지의 부분을 새로 그려주면 페이지를 전환 같은 효과를 보여줍니다.          
-<img src="./webtoon.gif" width="500px" height="300px">
+<img src="./webtoon.gif" width="500px" height="300px">   
 * * *
 #### 장점
 <pre>
@@ -90,7 +90,7 @@ $ npm install 명령어를 통해 NPM패키지를 설치하지 않아도 서버�
 $ npm run build
 ```
 * dist 폴더에 Production 파일 생성   
-<img src="./vue_build.jpg" width="265px" height="249px"></img>   
+<img src="./vue_build.jpg" width="265px" height="249px">     
 * JavaScript(UglifyJS), HTML(html-minifier) 최소화
 * 하나의 CSS 파일로 최소화(cssnano)
 * 모든 정적 파일은 파일명에 hash값이 추가되고 index.html에 자동으로 hash가 포함된 URL이 추가   
