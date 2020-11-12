@@ -15,12 +15,20 @@ Vue.js는 **Component** 기반의 **SPA (Single Page Application)** 사이트를
 </pre>
 #### 단점
 <pre>
-1. JS 의 사이즈가 커수록 초기 로딩속도 느려짐(초기 로딩시 JS가져 와야함)
-2. 검색엔진이 해당 페이지를 크롤 했을 때는 페이지가 그려지기 전이기 때문에 텅 빈 div 태그만 노출됨
+1. 최초 로딩 시 JS 파일을 가져와야 함으로 JS의 사이즈가 크면 초기 로딩속도 느려짐 이를 해결하기 위해 코드스클리팅(code-splitting) 사용
+2. 검색엔진이 해당 페이지를 크롤 했을 때는 페이지가 그려지기 전이기 때문에 텅 빈 div 태그만 노출됨.    
+이를 해결하기 위해서는 **meta tag** 를 이용하거나 **Nuxt** 같은 서버사이드 렌더링 프레임워크를 이용해야 함.
 </pre>
-(이를 해결하기 위해 뒤에서 code-splitting 에 대하여 알아볼 예정입니다)     
-또, 검색엔진이 해당 페이지를 크롤 했을 때는 페이지가 그려지기 전이기 때문에 텅 빈 div 태그만 노출됩니다.     
-이를 해결하기 위해서는 **meta tag** 를 이용하거나 **Nuxt** 같은 서버사이드 렌더링 프레임워크를 이용해야 합니다.
+
+※ 코드 스플리팅(Code splitting)?
+코드를 분할하여 사용자가 원하는 시점에 파일을 로딩하여 애플리케이션 초기 로딩 속도를 개선하는 방법입니다. Vue는 컴포넌트 정의를 비동기 방식으로 처리할 수 있는 방법을 제공합니다.
+
+※ 메타 테그(meta tag)?
+참고 : https://yamoo9.gitbook.io/vue-a11y-seo/seo#vue-meta
+
+※ 넉스트(Nuxt)?
+Nuxt.js는 Vue.js 프레임워크를 기반으로 SSR(Server Side Rendering) 웹 페이지를 만들 수 있도록 해 주는 라이브러리입니다. SEO 등의 문제로 CSR이 아닌 SSR 웹을 구축해야 하는 경우에 유용하게 사용할 수 있습니다.
+참고 : https://velog.io/@bluestragglr/Nuxt.js-vs-Vue.js-SSR-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0
 
 ## 설치방법
 $ npm install
