@@ -59,9 +59,7 @@ Vue CLI로 명령을 실행 시키면 CLI가 자동으로 최적화된 Webpack �
 // 설치 -install, 전역 -global
 $ npm i -g @vue/cli // vue-cli 4.x 이상   
 $ npm i -g vue-cli // vue-cli 2.x
-
-```
-참고 : [템플릿 종류](https://github.com/vuejs-templates)   
+```   
 vue cli의 기본 템플릿은 babel, eslint, unit-mocha 를 포함 합니다.
 
 * **Babel**: 자바스크립트 컴파일러입니다. 최신버전의 자바스크립트 문법은 브라우저가 이해하지 못하기 때문에 Babel은이 브라우저가 이해할 수 있는 문법으로 변환시켜줍니다.   
@@ -74,7 +72,8 @@ vue cli의 기본 템플릿은 babel, eslint, unit-mocha 를 포함 합니다.
 // vue init <template-name> <project-name>   
 $ vue create 'ProjectName' // vue-cli 4.X   
 $ vue init webpack 'ProjectName' // vue-cli 2.X   
-```
+```   
+참고 : [템플릿 종류](https://github.com/vuejs-templates)   
 
 ### 로컬 서버 실행
 ```
