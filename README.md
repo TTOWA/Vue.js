@@ -23,7 +23,9 @@ Vue.js는 **Component** 기반의 **SPA (Single Page Application)** 사이트를
 * 코드 스플리팅(Code splitting)?     
 코드를 분할하여 사용자가 원하는 시점에 파일을 로딩하여 애플리케이션 초기 로딩 속도를 개선하는 방법입니다. Vue는 컴포넌트 정의를 비동기 방식으로 처리할 수 있는 방법을 제공합니다.
 
-* 메타 테그(meta tag)?     
+* 메타 테그(meta tag)?    
+Vue Meta는 앱의 메타 데이터를 관리 할 수 있는 Vue.js 플러그인입니다. 그것은 react-helmet반응에서 영감을 얻고 유사하게 작동합니다.     
+그러나 데이터를 독점 구성 요소에 전달 된 소품으로 설정하는 대신 metaInfo속성을 사용하여 구성 요소 데이터의 일부로 내보내기 만하면 됩니다.          
 참고 : <https://yamoo9.gitbook.io/vue-a11y-seo/seo#vue-meta>
 
 * 넉스트(Nuxt)?     
