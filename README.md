@@ -57,9 +57,30 @@ Vue CLI로 명령을 실행 시키면 CLI가 자동으로 최적화된 Webpack �
 ### Vue-Cli 설치
 ```
 # 전역 -global 설치 -install 
+$ npm i -g @vue/cli // vue-cli 4.x 이상   
 $ npm i -g vue-cli // vue-cli 2.x
-$ npm i -g @vue/cli // vue-cli 3.x 이상
+
 ```
+
+### 프로젝트 생성
+```
+$ vue create 'ProjectName' // vue-cli 4.X
+$ vue init webpack 'ProjectName' // vue-cli 2.X
+```
+
+### 로컬 서버 실행
+```
+$ npm run serve // vue-cli 4.x
+$ npm run dev // vue-cli 2.x
+```
+http://localhost:8080/ 로 들어가면 뷰 로고가 있는 로컬 페이지를 볼 수 있다.   
+$ npm install 명령어를 통해 NPM패키지를 설치하지 않아도 서버가 작동되는 것을 확인할 수 있는데 vue cli가 이미 node_modules디렉터리 안에 라이브러리들을 다운받았기 때문이다.   
+vue cli의 기본 템플릿은 babel, eslint, unit-mocha 를 포함한다.
+
+* **Babel**: 자바스크립트 컴파일러다. 최신버전의 자바스크립트 문법은 브라우저가 이해하지 못하기 때문에 Babel은이 브라우저가 이해할 수 있는 문법으로 변환시켜준다.   
+         ES6, ES7 등의 최신 문법을 사용해서 코딩을 할 수 있기 때문에 생산성이 향상된다.
+* **ESLint**: 코딩 스타일 가이드를 따르지 않거나 문제가 있는 코드나 안티 패턴을 찾아 표시를 달아 놓는 도구이다.    
+* **unit-mocha**: javascript 진영에서 테스트 러너를 지원하는 테스트 프레임워크이다.   
 
 ### 참고 문서 
 - <https://nangko.tistory.com/13>    
