@@ -52,7 +52,7 @@ Vue 프로젝트를 개발할 수 있게 해주는 아주 유용한 도구이며
 여기서 CLI란 Command Line Interface의 약자로서 타이핑으로 명령어를 입력하여 원하는 바를 실행시키는 도구를 말합니다.      
 Vue CLI은 내부적으로 Webpack을 활용합니다.   
 Vue CLI로 명령을 실행 시키면 CLI가 자동으로 최적화된 Webpack 형태의 결과물을 생성 시켜 줍니다.  
-참고 : [초기셋팅방법](https://velog.io/@recordboy/Vue-Cli-%EC%B4%88%EA%B8%B0-%EC%84%B8%ED%8C%85)   
+참고 : [초기셋팅방법](https://velog.io/@recordboy/Vue-Cli-%EC%B4%88%EA%B8%B0-%EC%84%B8%ED%8C%85)      
 
 ### Vue-Cli 설치
 ```
@@ -65,7 +65,8 @@ vue cli의 기본 템플릿은 babel, eslint, unit-mocha 를 포함 합니다.
 * **Babel**: 자바스크립트 컴파일러입니다. 최신버전의 자바스크립트 문법은 브라우저가 이해하지 못하기 때문에 Babel은이 브라우저가 이해할 수 있는 문법으로 변환시켜줍니다.   
          ES6, ES7 등의 최신 문법을 사용해서 코딩을 할 수 있기 때문에 생산성이 향상됩니다.
 * **ESLint**: 코딩 스타일 가이드를 따르지 않거나 문제가 있는 코드나 안티 패턴을 찾아 표시를 달아 놓는 도구.    
-* **unit-mocha**: javascript 진영에서 테스트 러너를 지원하는 테스트 프레임워크.
+* **unit-mocha**: javascript 진영에서 테스트 러너를 지원하는 테스트 프레임워크.   
+문서 : [설치 및 사용 방법](https://nangko.tistory.com/13)
 
 ### 프로젝트 생성
 ```
