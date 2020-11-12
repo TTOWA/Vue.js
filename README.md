@@ -1,6 +1,6 @@
 # Vue.js?
 Vue.js는 **Component** 기반의 **SPA (Single Page Application)** 사이트를 구축 할 수 있는 프레임워크 이다.   
-참고 : <https://kr.vuejs.org/v2/guide/>
+참고 : [공식가이드](https://kr.vuejs.org/v2/guide/)
 
 ### SPA (Single Page Application)
 말 그대로 단일 페이지 어플리케이션 입니다. 하나의 html 파일과 단일 JS 파일로 이루어져 있습니다.   
@@ -52,7 +52,7 @@ Vue 프로젝트를 개발할 수 있게 해주는 아주 유용한 도구이며
 여기서 CLI란 Command Line Interface의 약자로서 타이핑으로 명령어를 입력하여 원하는 바를 실행시키는 도구를 말합니다.      
 Vue CLI은 내부적으로 Webpack을 활용합니다.   
 Vue CLI로 명령을 실행 시키면 CLI가 자동으로 최적화된 Webpack 형태의 결과물을 생성 시켜 줍니다.  
-참고 : [Vue Cli 초기 세팅](https://velog.io/@recordboy/Vue-Cli-%EC%B4%88%EA%B8%B0-%EC%84%B8%ED%8C%85)   
+참고 : [초기셋팅방법](https://velog.io/@recordboy/Vue-Cli-%EC%B4%88%EA%B8%B0-%EC%84%B8%ED%8C%85)   
 
 ### Vue-Cli 설치
 ```
