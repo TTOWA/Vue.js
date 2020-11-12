@@ -82,19 +82,17 @@ $ npm run dev
 * 컴파일, ESLint 과정을 거치고 로컬서버로 페이지를 실행시켜준다(http://localhost:8080/)
 * 코드 수정후 저장하면 ESLint, hot-reload 동작(변경된 상태만 변경)
 * Source maps 설정  
-$ npm install 명령어를 통해 NPM패키지를 설치하지 않아도 서버가 작동되는 것을 확인할 수 있는데 vue cli가 이미 node_modules디렉터리 안에 라이브러리들을 다운받았기 때문입니다.   
+  $ npm install 명령어를 통해 NPM패키지를 설치하지 않아도 서버가 작동되는 것을 확인할 수 있는데 vue cli가 이미 node_modules디렉터리 안에 라이브러리들을 다운받았기 때문입니다.   
    
 ### 배포하기
 ```
 $ npm run build
 ```
-* dist 폴더에 Production 파일 생성
+* dist 폴더에 Production 파일 생성   
+<img src="./vue_build.jpg" width="265px" height="249px"></img>   
 * JavaScript(UglifyJS), HTML(html-minifier) 최소화
 * 하나의 CSS 파일로 최소화(cssnano)
 * 모든 정적 파일은 파일명에 hash값이 추가되고 index.html에 자동으로 hash가 포함된 URL이 추가   
-<img src="./vue_build.jpg" width="265px" height="249px"></img>
-
-
 
 ### 웹 서버에 빌드된 자원 배포하기   
 앞에서 생성한 빌드 자원을 각각의 서버에 배포하기 위해서는 각 서버에 추가적인 세팅이 필요합니다.   
