@@ -26,9 +26,9 @@ Vue.js는 **Component** 기반의 **SPA (Single Page Application)** 사이트를
 * 메타 테그(meta tag)?     
 참고 : <https://yamoo9.gitbook.io/vue-a11y-seo/seo#vue-meta>
 
-※ 넉스트(Nuxt)?
+* 넉스트(Nuxt)?
 Nuxt.js는 Vue.js 프레임워크를 기반으로 SSR(Server Side Rendering) 웹 페이지를 만들 수 있도록 해 주는 라이브러리입니다. SEO 등의 문제로 CSR이 아닌 SSR 웹을 구축해야 하는 경우에 유용하게 사용할 수 있습니다.
-참고 : https://velog.io/@bluestragglr/Nuxt.js-vs-Vue.js-SSR-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0
+참고 : <https://velog.io/@bluestragglr/Nuxt.js-vs-Vue.js-SSR-시작하기>
 
 ## 설치방법
 $ npm install
