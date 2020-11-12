@@ -47,7 +47,21 @@ Nuxt.js는 Vue.js 프레임워크를 기반으로 SSR(Server Side Rendering) 웹
 3. NPM 설치   
 규모가 큰 프로젝트 경우 컴포넌트별 독립적으로 관리할 수 있는 싱글 파일 컴포넌트 방식 추천
 
-## 설치방법
+### Vue-Cli?   
+Vue 프로젝트를 개발할 수 있게 해주는 아주 유용한 도구이며,   
+여기서 CLI란 Command Line Interface의 약자로서 타이핑으로 명령어를 입력하여 원하는 바를 실행시키는 도구를 말한다.   
+Vue CLI은 내부적으로 Webpack을 활용한다.   
+Vue CLI로 명령을 실행 시키면 CLI가 자동으로 최적화된 Webpack 형태의 결과물을 생성 시켜 준다.  
+참고 : <https://velog.io/@recordboy/Vue-Cli-Vue-Cli-초기-세팅>   
+
+### Vue-Cli 설치
+<pre>
+<code>
+# 전역 -global 설치 -install 
+$ npm i -g vue-cli // vue-cli 2.x
+$ npm i -g @vue/cli // vue-cli 3.x 이상
+</code>
+</pre>
 $ npm install
 $ npm i -g @vue/cli-init (vue/@vue 차이 작성하기)
 
