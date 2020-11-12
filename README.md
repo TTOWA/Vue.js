@@ -27,8 +27,9 @@ Vue.js는 **Component** 기반의 **SPA (Single Page Application)** 사이트를
 Vue는 컴포넌트 정의를 비동기 방식으로 처리할 수 있는 방법을 제공합니다.
 
 * 메타 테그(meta tag)?    
-앱의 메타 데이터를 관리 할 수 있는 Vue.js 플러그인입니다. react-helmet 반응에서 영감을 얻고 유사하게 작동합니다.     
-그러나 데이터를 독점 구성 요소에 전달 된 소품으로 설정하는 대신 metaInfo 속성을 사용하여 구성 요소 데이터의 일부로 내보내기 만하면 됩니다.          
+앱의 메타 데이터를 관리 할 수 있는 Vue.js 플러그인 입니다.   
+컴포넌트를 인스턴스화 할 때 메타 데이터를 추가 할 수 있는 기능을 제공할 수 있습니다.   
+Vue 컴포넌트 코드 내부에 metaInfo 속성을 사용해 SEO 정보를 설정할 수 있습니다.   
 참고 : [Github(vue-meta)](https://github.com/nuxt/vue-meta), [설치 및 사용 방법](https://yamoo9.gitbook.io/vue-a11y-seo/seo#vue-meta)    
 
 * 넉스트(Nuxt)?     
