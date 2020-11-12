@@ -17,7 +17,7 @@ Vue.js는 **Component** 기반의 **SPA (Single Page Application)** 사이트를
 <pre>
 1. 최초 로딩 시 JS 파일을 가져와야 함으로 JS의 사이즈가 크면 초기 로딩속도 느려짐 이를 해결하기 위해 *코드스클리팅(code-splitting) 사용
 2. 검색엔진이 해당 페이지를 크롤 했을 때는 페이지가 그려지기 전이기 때문에 텅 빈 div 태그만 노출됨.    
-이를 해결하기 위해서는 *meta tag 를 이용하거나 *Nuxt 같은 서버사이드 렌더링 프레임워크를 이용해야 함.
+   이를 해결하기 위해서는 *meta tag 를 이용하거나 *Nuxt 같은 서버사이드 렌더링 프레임워크를 이용해야 함.
 </pre>
 
 ※ 코드 스플리팅(Code splitting)?
