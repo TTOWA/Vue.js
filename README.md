@@ -37,10 +37,8 @@ Nuxt.js는 Vue.js 프레임워크를 기반으로 SSR(Server Side Rendering) 웹
 참고 : <https://velog.io/@bluestragglr/Nuxt.js-vs-Vue.js-SSR-시작하기>
 
 ### Vue 설치
-1. CDN   
-https://unpkg.com/vue 주소를 script 태그에 직접 추가   
-
-2. Vue.js 파일다운   
+1. Vue.js 파일다운 
+   * 개발용, 배포용 버전을 다운 받아 script 태그에 추가
    개발용 버전은 개발에 도움이 되는 모든 경고를 출력하기 때문에 개발 중에만 사용하고, 실제 서비스에서는 배포용 버전으로 사용해야 한다.   
    <pre>
    <code>개발용 : <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script></code>
