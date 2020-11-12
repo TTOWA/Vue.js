@@ -29,7 +29,7 @@ Vue는 컴포넌트 정의를 비동기 방식으로 처리할 수 있는 방법
 * 메타 테그(meta tag)?    
 앱의 메타 데이터를 관리 할 수 있는 Vue.js 플러그인입니다. react-helmet 반응에서 영감을 얻고 유사하게 작동합니다.     
 그러나 데이터를 독점 구성 요소에 전달 된 소품으로 설정하는 대신 metaInfo 속성을 사용하여 구성 요소 데이터의 일부로 내보내기 만하면 됩니다.          
-참고 : <https://yamoo9.gitbook.io/vue-a11y-seo/seo#vue-meta>, <https://github.com/nuxt/vue-meta>
+참고 : [설치 및 사용 방법](https://yamoo9.gitbook.io/vue-a11y-seo/seo#vue-meta), [github(vue-meta)](https://github.com/nuxt/vue-meta)
 
 * 넉스트(Nuxt)?     
 Nuxt.js는 Vue.js 프레임워크를 기반으로 SSR(Server Side Rendering) 웹 페이지를 만들 수 있도록 해 주는 라이브러리입니다.     
