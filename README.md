@@ -90,6 +90,12 @@ $ npm run build
 이렇게 생성된 자원을 빌드된 자원이라고 부릅니다.   
 <img src="./vue_build.jpg" width="265px" height="249px"></img>
 
+### 웹 서버에 빌드된 자원 배포하기   
+앞에서 생성한 빌드 자원을 각각의 서버에 배포하기 위해서는 각 서버에 추가적인 세팅이 필요합니다.   
+특히 뷰 라우터를 활용하여 싱글 페이지 애플리케이션을 제작하신 경우에는 서버에 꼭 페이지 fallback 옵션을 추가해주셔야 해당 url로 접근했을 때 정상적으로 동작합니다.   
+각 웹 서버의 fallback 설정 방법은 아래 공식 문서를 참고하세요.   
+참고 : [서버 구성 가이드](https://router.vuejs.org/guide/essentials/history-mode.html#example-server-configurations)
+
 
 ### 참고 문서 
 - <https://nangko.tistory.com/13>    
