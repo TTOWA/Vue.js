@@ -23,7 +23,8 @@ Vue.js는 **Component** 기반의 **SPA (Single Page Application)** 사이트를
 </pre>
 
 * 코드 스플리팅(Code splitting)?     
-코드를 분할하여 사용자가 원하는 시점에 파일을 로딩하여 애플리케이션 초기 로딩 속도를 개선하는 방법입니다. Vue는 컴포넌트 정의를 비동기 방식으로 처리할 수 있는 방법을 제공합니다.
+코드를 분할하여 사용자가 원하는 시점에 파일을 로딩하여 애플리케이션 초기 로딩 속도를 개선하는 방법입니다.    
+Vue는 컴포넌트 정의를 비동기 방식으로 처리할 수 있는 방법을 제공합니다.
 
 * 메타 테그(meta tag)?    
 앱의 메타 데이터를 관리 할 수 있는 Vue.js 플러그인입니다. react-helmet 반응에서 영감을 얻고 유사하게 작동합니다.     
@@ -34,6 +35,19 @@ Vue.js는 **Component** 기반의 **SPA (Single Page Application)** 사이트를
 Nuxt.js는 Vue.js 프레임워크를 기반으로 SSR(Server Side Rendering) 웹 페이지를 만들 수 있도록 해 주는 라이브러리입니다.     
 검색엔진 최적화(SEO) 등의 문제로 CSR이 아닌 SSR 웹을 구축해야 하는 경우에 유용하게 사용할 수 있습니다.     
 참고 : <https://velog.io/@bluestragglr/Nuxt.js-vs-Vue.js-SSR-시작하기>
+
+### Vue 설치
+1. CDN   
+https://unpkg.com/vue 주소를 script 태그에 직접 추가   
+
+2. Vue.js 파일다운   
+   개발용 버전은 개발에 도움이 되는 모든 경고를 출력하기 때문에 개발 중에만 사용하고, 실제 서비스에서는 배포용 버전으로 사용해야 한다.   
+<pre>
+<code>개발용 : <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script></code>
+<code>배포용 : <script src="https://cdn.jsdelivr.net/npm/vue"></script></code>
+</pre>   
+3. NPM 설치   
+규모가 큰 프로젝트 경우 컴포넌트별 독립적으로 관리할 수 있는 싱글 파일 컴포넌트 방식 추천
 
 ## 설치방법
 $ npm install
