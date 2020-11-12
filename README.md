@@ -60,12 +60,9 @@ Vue CLI로 명령을 실행 시키면 CLI가 자동으로 최적화된 Webpack �
 $ npm i -g vue-cli // vue-cli 2.x
 $ npm i -g @vue/cli // vue-cli 3.x 이상
 ```
-$ npm install
-$ npm i -g @vue/cli-init (vue/@vue 차이 작성하기)
 
-참고 URL 
-https://nangko.tistory.com/13
-https://atez.kagamine.me/37
-http://labs.brandi.co.kr/2018/05/03/kwakjs.html
-
-https://simplevue.gitbook.io/intro/vue.js#spa-single-page-application
+### 참고 문서 
+- <https://nangko.tistory.com/13>    
+- <https://atez.kagamine.me/37>   
+- <http://labs.brandi.co.kr/2018/05/03/kwakjs.html>   
+- <https://simplevue.gitbook.io/intro/vue.js#spa-single-page-application>   
