@@ -86,8 +86,8 @@ vue cli의 기본 템플릿은 babel, eslint, unit-mocha 를 포함 합니다.
 ```
 $ npm run build
 ```
-호스팅 할 수 있는 형태의 HTML, CSS, Javascript, 이미지 등의 파일이 생성됩니다.   
-이렇게 생성된 자원을 빌드된 자원이라고 부릅니다.
+호스팅 할 수 있는 형태의 HTML, CSS, Javascript, 이미지 등의 파일이 생성됩니다.      
+이렇게 생성된 자원을 빌드된 자원이라고 부릅니다.   
 <img src="./vue_build.jpg" width="265px" height="249px"></img>
 
 
