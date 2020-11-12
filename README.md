@@ -42,10 +42,10 @@ https://unpkg.com/vue 주소를 script 태그에 직접 추가
 
 2. Vue.js 파일다운   
    개발용 버전은 개발에 도움이 되는 모든 경고를 출력하기 때문에 개발 중에만 사용하고, 실제 서비스에서는 배포용 버전으로 사용해야 한다.   
-<pre>
-<code>개발용 : <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script></code>
-<code>배포용 : <script src="https://cdn.jsdelivr.net/npm/vue"></script></code>
-</pre>   
+   <pre>
+   <code>개발용 : <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script></code>
+   <code>배포용 : <script src="https://cdn.jsdelivr.net/npm/vue"></script></code>
+   </pre>   
 3. NPM 설치   
 규모가 큰 프로젝트 경우 컴포넌트별 독립적으로 관리할 수 있는 싱글 파일 컴포넌트 방식 추천
 
