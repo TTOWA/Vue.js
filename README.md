@@ -86,6 +86,8 @@ $ npm run dev
 * 코드 수정후 저장하면 ESLint, hot-reload 동작(변경된 상태만 변경)
 * Source maps 설정     
 $ npm install 명령어를 통해 NPM패키지를 설치하지 않아도 서버가 작동되는 것을 확인할 수 있는데 vue cli가 이미 node_modules디렉터리 안에 라이브러리들을 다운받았기 때문입니다.   
+
+참고 : [script 내부 코드](https://iam-song.tistory.com/47)   
    
 ### 배포하기
 ```
@@ -101,6 +103,7 @@ $ npm run build
 앞에서 생성한 빌드 자원을 각각의 서버에 배포하기 위해서는 각 서버에 추가적인 세팅이 필요합니다.   
 특히 뷰 라우터를 활용하여 싱글 페이지 애플리케이션을 제작하신 경우에는 서버에 꼭 페이지 fallback 옵션을 추가해주셔야 해당 url로 접근했을 때 정상적으로 동작합니다.   
 각 웹 서버의 fallback 설정 방법은 아래 공식 문서를 참고하세요.   
+
 참고 : [서버 구성 가이드](https://router.vuejs.org/guide/essentials/history-mode.html#example-server-configurations)
 
 
