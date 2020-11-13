@@ -86,6 +86,7 @@ $ npm run dev
 * 코드 수정후 저장하면 ESLint, hot-reload 동작(변경된 상태만 변경)
 * Source maps 설정     
 $ npm install 명령어를 통해 NPM패키지를 설치하지 않아도 서버가 작동되는 것을 확인할 수 있는데 vue cli가 이미 node_modules디렉터리 안에 라이브러리들을 다운받았기 때문입니다.   
+참고 : [script 내부 코드](https://iam-song.tistory.com/47)   
    
 ### 배포하기
 ```
